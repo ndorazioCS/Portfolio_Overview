@@ -45,11 +45,16 @@
 /*********************/
 /*  Page Styles      */
 /*********************/
+html, body {
+    margin: 0;
+    padding: 0;
+}
 
 .page-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    position: fixed scroll;
 }
 
 .page-element {
@@ -93,7 +98,7 @@
 }
 
 .nav-element:nth-last-child(2) {
-    margin-left:auto
+    margin-left: auto;
 }
 
 
@@ -109,6 +114,7 @@
     flex-wrap: wrap;
     padding: 1rem;
     gap: 1rem;
+    overflow: hidden scroll;
 }
 
 /**********************/
@@ -132,6 +138,7 @@
     flex: 1 0 25%;
     background-color: var(--color-section);
     border: var(--border-size) var(--border-type) var(--color-border);
+    border-radius: .3rem;
 }
 
 /**********************/
