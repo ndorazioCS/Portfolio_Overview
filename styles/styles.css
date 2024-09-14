@@ -1,0 +1,30 @@
+/*************************************/
+/*  CSS for Portfolio Overview       */
+/*                                   */
+/*  Author: Nick D'Orazio            */
+/*  Created: 09-14-2024              */
+/*  Last Updated: 09-14-2024         */
+/*                                   */
+/*************************************/
+
+
+/*********************/
+/*     Text Styles   */
+/*********************/
+
+.centered-text {
+    text-align: center;
+}
+
+/**********************/
+/*  Horizontal Rule   */
+/**********************/
+
+.horizontal-rule {
+    background: var(--color-nav);
+    background: var(--color-horizontal-rule);
+    min-height: .5vh;
+    position: sticky;
+    top:5vh;
+}
+

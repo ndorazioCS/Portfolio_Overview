@@ -1,0 +1,25 @@
+/*************************************/
+/*  CSS for Portfolio Overview       */
+/*                                   */
+/*  Author: Nick D'Orazio            */
+/*  Created: 09-14-2024              */
+/*  Last Updated: 09-14-2024         */
+/*                                   */
+/*************************************/
+
+
+/**********************/
+/*  Footer Styles     */
+/**********************/
+
+.footer-container {
+    min-height: 1vh;
+    background-color: var(--color-footer);
+    min-width: 100vw;
+    min-height: 5vw;
+}
+
+.footer-text {
+    font-size: 2rem;
+    color: var(--color-text);
+}

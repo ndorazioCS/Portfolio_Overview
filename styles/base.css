@@ -1,0 +1,51 @@
+/*************************************/
+/*  CSS for Portfolio Overview       */
+/*                                   */
+/*  Author: Nick D'Orazio            */
+/*  Created: 09-14-2024              */
+/*  Last Updated: 09-14-2024         */
+/*                                   */
+/*************************************/
+
+
+/******************/
+/* Root Variables */
+/******************/
+
+:root {
+    /* Page container colors */
+    --color-header: #0A0908;
+    --color-nav: #49111C;
+    --color-main: #d3d0cb;
+    --color-footer: #646881;
+    --color-section: #ACBEA3;
+    --color-horizontal-rule: radial-gradient(circle, rgba(2,0,36,1) 30%, rgba(79,9,121,1) 64%, rgba(0,212,255,1) 100%);
+    overscroll-behavior: none;
+}
+
+:root {
+    /* Border varibales */
+    --border-type: solid;
+    --border-size: .2rem;
+    --color-border: black;
+}
+
+/*********************/
+/*  Page Styles      */
+/*********************/
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-element {
+    flex: 1 0 auto;
+    min-height: 100%;
+}

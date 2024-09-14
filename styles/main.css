@@ -1,0 +1,46 @@
+/*************************************/
+/*  CSS for Portfolio Overview       */
+/*                                   */
+/*  Author: Nick D'Orazio            */
+/*  Created: 09-14-2024              */
+/*  Last Updated: 09-14-2024         */
+/*                                   */
+/*************************************/
+
+
+/*********************/
+/*  Main Styles      */
+/*********************/
+
+.main-container {
+    background-color: var(--color-main);
+    min-height: 75vh;
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+    min-height: 100%;
+}
+
+.head-and-nav-container {
+    position: fixed;
+}
+
+.scrollable-container {
+    overflow-y: scroll;
+}
+
+/**********************/
+/*  Content Styles    */
+/**********************/
+
+.section-element {
+    padding: 1rem;
+    min-width: 500px;
+    max-height: 500px;
+    flex: 1 0 25%;
+    background-color: var(--color-section);
+    border: var(--border-size) var(--border-type) var(--color-border);
+    border-radius: .3rem;
+}

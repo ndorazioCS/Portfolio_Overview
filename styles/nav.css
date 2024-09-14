@@ -1,0 +1,36 @@
+/*************************************/
+/*  CSS for Portfolio Overview       */
+/*                                   */
+/*  Author: Nick D'Orazio            */
+/*  Created: 09-14-2024              */
+/*  Last Updated: 09-14-2024         */
+/*                                   */
+/*************************************/
+
+
+/*********************/
+/*    Nav Styles     */
+/*********************/
+
+.nav-container {
+    min-height: 5vh;
+    background-color: var(--color-nav);
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+.nav-element {
+    color: white;
+    margin: 1rem;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.nav-element:first-child {
+    margin-right: auto;
+}
+
+.nav-element:nth-last-child(2) {
+    margin-left: auto;
+}
