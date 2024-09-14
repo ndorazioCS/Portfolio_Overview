@@ -1,10 +1,50 @@
+/*************************************/
+/*  CSS for Portfolio Overview       */
+/*                                   */
+/*  Author: Nick D'Orazio            */
+/*  Created: 09-14-2024              */
+/*  Last Updated: 09-14-2024         */
+/*                                   */
+/*************************************/
+
+
+/******************/
+/* Root Variables */
+/******************/
+
 :root {
+    /* Page container colors */
     --color-header: #0A0908;
     --color-nav: #49111C;
     --color-main: #d3d0cb;
     --color-footer: #646881;
     --color-section: #ACBEA3;
+    --color-horizontal-rule: radial-gradient(circle, rgba(2,0,36,1) 30%, rgba(79,9,121,1) 64%, rgba(0,212,255,1) 100%);
 }
+
+:root {
+    /* Border varibales */
+    --border-type: solid;
+    --border-size: .2rem;
+    --color-border: black;
+}
+
+:root {
+    /* Text variables */
+    --color-text: black;
+}
+
+/*********************/
+/*     Text Styles   */
+/*********************/
+
+.centered-text {
+    text-align: center;
+}
+
+/*********************/
+/*  Page Styles      */
+/*********************/
 
 .page-container {
     display: flex;
@@ -15,12 +55,11 @@
 .page-element {
     flex: 1 0 auto;
     min-height: 100%;
-    background-color: green;
 }
 
-.main-container {
-    background-color: var(--color-main);
-}
+/*********************/
+/* Header Styles     */
+/*********************/
 
 .header-container {
     min-height: 10vh;
@@ -29,50 +68,75 @@
 
 .header-title {
     color: white;
-    text-align: center;
     font-size: 5rem;
 }
+
+/*********************/
+/*    Nav Styles     */
+/*********************/
 
 .nav-container {
     min-height: 5vh;
     background-color: var(--color-nav);
     display: flex;
-    justify-content: center;
 }
 
 .nav-element {
     color: white;
     margin: 1rem;
+    font-size: 1.5rem;
+    justify-content: center;
 }
 
-.nav-element:last-child {
-    align-items: flex-end;
+.nav-element:first-child {
+    margin-right: auto;
 }
+
+.nav-element:nth-last-child(2) {
+    margin-left:auto
+}
+
+
+/*********************/
+/*  Main Styles      */
+/*********************/
 
 .main-container {
-    min-height: 75vh;
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.project-nav-container {
-    min-width: 10vw;;
-    order: 1;
-    margin: 2rem;
-}
-
-.main {
     background-color: var(--color-main);
-    display: grid;
-    order: 2;
-    min-width: 80vw;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
 }
+
+/**********************/
+/*  Horizontal Rule   */
+/**********************/
+
+.horizontal-rule {
+    background: var(--color-nav);
+    background: var(--color-horizontal-rule);
+    min-height: .5vh;
+}
+
+/**********************/
+/*  Content Styles    */
+/**********************/
 
 .section-element {
-    margin: 2rem;
+    padding: 1rem;
+    min-width: 500px;
+    max-height: 500px;
+    flex: 1 0 25%;
     background-color: var(--color-section);
-    order: 2;
+    border: var(--border-size) var(--border-type) var(--color-border);
 }
+
+/**********************/
+/*  Footer Styles     */
+/**********************/
 
 .footer-container {
     min-height: 10vh;
@@ -81,6 +145,5 @@
 
 .footer-text {
     font-size: 2rem;
-    color: black;
-    text-align: center;
+    color: var(--color-text);
 }
