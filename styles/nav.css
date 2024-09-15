@@ -14,7 +14,7 @@
 
 .nav-container {
     min-height: 5vh;
-    background-color: var(--color-nav);
+    background-color: var(--color-red);
     display: flex;
     position: sticky;
     top: 0;
@@ -27,6 +27,10 @@
     justify-content: center;
 }
 
+.nav-element:hover {
+    color: var(--color-purple);
+}
+
 .nav-element:first-child {
     margin-right: auto;
 }
@@ -34,3 +38,4 @@
 .nav-element:nth-last-child(2) {
     margin-left: auto;
 }
+

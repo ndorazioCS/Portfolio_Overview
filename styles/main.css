@@ -13,7 +13,7 @@
 /*********************/
 
 .main-container {
-    background-color: var(--color-main);
+    background-color: var(--color-white);
     min-height: 75vh;
     display: flex;
     flex-direction: wrap;
@@ -40,7 +40,11 @@
     min-width: 500px;
     max-height: 500px;
     flex: 1 0 25%;
-    background-color: var(--color-section);
+    background-color: var(--color-green);
     border: var(--border-size) var(--border-type) var(--color-border);
     border-radius: .3rem;
+}
+
+.selectable:hover {
+    background-color: rgb(113, 158, 121);
 }

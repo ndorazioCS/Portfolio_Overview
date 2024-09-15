@@ -7,6 +7,11 @@
 /*                                   */
 /*************************************/
 
+@import "./nav.css";
+@import "./main.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./styles.css";
 
 /******************/
 /* Root Variables */
@@ -14,11 +19,10 @@
 
 :root {
     /* Page container colors */
-    --color-header: #0A0908;
-    --color-nav: #49111C;
-    --color-main: #d3d0cb;
-    --color-footer: #646881;
-    --color-section: #ACBEA3;
+    --color-red: #49111C;
+    --color-white: #d3d0cb;
+    --color-purple: #646881;
+    --color-green: #ACBEA3;
     --color-horizontal-rule: radial-gradient(circle, rgba(2,0,36,1) 30%, rgba(79,9,121,1) 64%, rgba(0,212,255,1) 100%);
     overscroll-behavior: none;
 }
@@ -49,3 +53,4 @@ html, body {
     flex: 1 0 auto;
     min-height: 100%;
 }
+
