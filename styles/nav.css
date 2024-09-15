@@ -28,7 +28,7 @@
 }
 
 .nav-element:hover {
-    color: var(--color-purple);
+    color: var(--color-white);
 }
 
 .nav-element:first-child {
