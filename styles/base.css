@@ -19,10 +19,11 @@
 
 :root {
     /* Page container colors */
-    --color-red: #49111C;
-    --color-white: #d3d0cb;
-    --color-purple: #646881;
-    --color-green: #ACBEA3;
+    --color-red-primary: #49111C;
+    --color-white-primary: #d3d0cb;
+    --color-purple-primary: #646881;
+    --color-green-primary: #ACBEA3;
+    --color-green-secondary: rgb(113, 158, 121);
     --color-horizontal-rule: radial-gradient(circle, rgba(2,0,36,1) 30%, rgba(79,9,121,1) 64%, rgba(0,212,255,1) 100%);
     overscroll-behavior: none;
 }

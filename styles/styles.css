@@ -21,7 +21,7 @@
 /**********************/
 
 .horizontal-rule {
-    background: var(--color-red);
+    background: var(--color-red-primary);
     background: var(--color-horizontal-rule);
     min-height: .5vh;
     position: sticky;

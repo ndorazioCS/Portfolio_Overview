@@ -14,7 +14,7 @@
 
 .footer-container {
     min-height: 1vh;
-    background-color: var(--color-purple);
+    background-color: var(--color-purple-primary);
     min-width: 100vw;
     min-height: 5vw;
 }
