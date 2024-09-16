@@ -1,0 +1,29 @@
+/*************************************/
+/*  CSS for Portfolio Overview       */
+/*                                   */
+/*  Author: Nick D'Orazio            */
+/*  Created: 09-14-2024              */
+/*  Last Updated: 09-14-2024         */
+/*                                   */
+/*************************************/
+
+/**********************/
+/*  Section Styles    */
+/**********************/
+
+.section-element {
+    padding: 1rem;
+    min-width: 500px;
+    max-height: 500px;
+    flex: 1 0 33%;
+    background-color: var(--color-section-background-primary);
+    border: var(--border-size) var(--border-type) var(--color-border);
+    border-radius: .3rem;
+    font-size: 2rem;
+    color: var(--color-text-main-primary);
+    overflow-y: scroll;
+}
+
+.selectable:hover {
+    background-color: var(--color-section-background-secondary);
+}

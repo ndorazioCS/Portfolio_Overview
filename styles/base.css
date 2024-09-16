@@ -7,29 +7,19 @@
 /*                                   */
 /*************************************/
 
-@import "./nav.css";
-@import "./main.css";
-@import "./footer.css";
-@import "./header.css";
 @import "./styles.css";
+@import "./themes/index.css";
+@import "./components/index.css";
 
 /******************/
 /* Root Variables */
 /******************/
 
 :root {
-    /* Page container colors */
-    --color-red-primary: #49111C;
-    --color-white-primary: #d3d0cb;
-    --color-purple-primary: #646881;
-    --color-green-primary: #ACBEA3;
-    --color-green-secondary: rgb(113, 158, 121);
-    --color-horizontal-rule: radial-gradient(circle, rgba(2,0,36,1) 30%, rgba(79,9,121,1) 64%, rgba(0,212,255,1) 100%);
     overscroll-behavior: none;
 }
 
 :root {
-    /* Border varibales */
     --border-type: solid;
     --border-size: .2rem;
     --color-border: black;
@@ -41,7 +31,6 @@
 html, body {
     margin: 0;
     padding: 0;
-    
 }
 
 .page-container {

@@ -14,12 +14,12 @@
 
 .footer-container {
     min-height: 1vh;
-    background-color: var(--color-purple-primary);
+    background-color: var(--color-footer-background-primary);
     min-width: 100vw;
     min-height: 5vw;
 }
 
 .footer-text {
     font-size: 2rem;
-    color: var(--color-text);
+    color: var(--color-text-footer-primary);
 }

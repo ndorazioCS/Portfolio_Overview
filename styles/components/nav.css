@@ -14,7 +14,7 @@
 
 .nav-container {
     min-height: 5vh;
-    background-color: var(--color-red-primary);
+    background-color: var(--color-nav-background-primary);
     display: flex;
     position: sticky;
     top: 0;
@@ -28,7 +28,7 @@
 }
 
 .nav-element:hover {
-    color: var(--color-white-primary);
+    color: var(--color-nav-background-secondary);
 }
 
 .nav-element:first-child {

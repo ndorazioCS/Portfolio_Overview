@@ -13,7 +13,7 @@
 /*********************/
 
 .main-container {
-    background-color: var(--color-white-primary);
+    background-color: var(--color-main-background-primary);
     min-height: 75vh;
     display: flex;
     flex-direction: wrap;
@@ -31,20 +31,3 @@
     overflow-y: scroll;
 }
 
-/**********************/
-/*  Content Styles    */
-/**********************/
-
-.section-element {
-    padding: 1rem;
-    min-width: 500px;
-    max-height: 500px;
-    flex: 1 0 25%;
-    background-color: var(--color-green-primary);
-    border: var(--border-size) var(--border-type) var(--color-border);
-    border-radius: .3rem;
-}
-
-.selectable:hover {
-    background-color: var(--color-green-secondary);
-}

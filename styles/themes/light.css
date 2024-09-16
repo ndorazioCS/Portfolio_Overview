@@ -1,0 +1,22 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        -color-main-background-primary: #d3d0cb;
+
+        --color-nav-background-primary: #49111C;
+
+        --color-section-background-primary: #ACBEA3;
+
+        --color-footer-background-primary: #646881;
+
+        --color-horizontal-rule: radial-gradient(
+            circle, 
+                rgba(2,0,36,1) 30%, 
+                rgba(79,9,121,1) 64%, 
+                rgba(0,212,255,1) 100%
+        );
+
+        --color-text-header-primary: white;
+        --color-text-main-primary: black;
+        --color-text-footer-primary: white;
+    }
+}
