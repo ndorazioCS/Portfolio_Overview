@@ -1,0 +1,11 @@
+/**********************/
+/*  Horizontal Rule   */
+/**********************/
+
+.horizontal-rule {
+    background: var(--color-horizontal-background-primary);
+    background: var(--color-horizontal-rule);
+    min-height: .5vh;
+    position: sticky;
+    top:5vh;
+}

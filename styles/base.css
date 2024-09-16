@@ -10,6 +10,7 @@
 @import "./styles.css";
 @import "./themes/index.css";
 @import "./components/index.css";
+@import "./utilities/index.css";
 
 /******************/
 /* Root Variables */
@@ -17,12 +18,6 @@
 
 :root {
     overscroll-behavior: none;
-}
-
-:root {
-    --border-type: solid;
-    --border-size: .2rem;
-    --color-border: black;
 }
 
 /*********************/

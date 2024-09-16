@@ -1,0 +1,9 @@
+/*****************************/
+/*    Border Styles          */
+/*****************************/
+
+:root {
+    --border-type: solid;
+    --border-size: .2rem;
+    --color-border: black;
+}

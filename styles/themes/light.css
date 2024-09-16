@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: light) {
     :root {
-        -color-main-background-primary: #d3d0cb;
+        --color-main-background-primary: #d3d0cb;
 
         --color-nav-background-primary: #49111C;
 

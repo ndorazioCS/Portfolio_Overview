@@ -11,11 +11,11 @@
 /*  Section Styles    */
 /**********************/
 
-.section-element {
+.article-element {
     padding: 1rem;
     min-width: 500px;
-    max-height: 500px;
     flex: 1 0 33%;
+    display: flex;
     background-color: var(--color-section-background-primary);
     border: var(--border-size) var(--border-type) var(--color-border);
     border-radius: .3rem;
