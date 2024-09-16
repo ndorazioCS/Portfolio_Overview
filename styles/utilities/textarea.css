@@ -1,6 +1,14 @@
 textarea {
-    min-width: 100vw;
-    min-height: 25vh;
-    
-    display: block;
+    min-width: 500px;
+    width: 96%;
+    max-width: 96%;
+    min-height: 25%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
 }
+
+textarea + button {
+    margin-left: 80%;
+}
+

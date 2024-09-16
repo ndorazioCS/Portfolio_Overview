@@ -1,4 +1,16 @@
+/*****************************/
+/*    Button Styles          */
+/*****************************/
+
 button {
     width: 8rem;
     height: 3rem;
+}
+
+button > span {
+    font-size: 2rem;
+}
+
+button:hover {
+    cursor: pointer;
 }

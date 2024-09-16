@@ -8,9 +8,14 @@
         <link rel="stylesheet" type="text/css" href="styles/base.css" />
         <title>Nick D'Orazio Portfolio</title>
     <head>
+
     <body>
-        <div class='page-container'>       
+        <div class='page-container'>         
+
             <nav class='nav-container'>
+                <a href="#main" aria-label='Jump to Content'>
+                    <dt>Junp To Content</dt>
+                </a>
                 <a href='./index.html' class='nav-element'>
                     <dt>Home</dt>
                 </a>
@@ -21,12 +26,14 @@
                     <dt>Contact</dt>
                 </a>
             </nav>
+
             <div class='horizontal-rule'></div>
-            <main class='page-element main-container scrollable-container'>
-                <article class='article-element'>
+
+            <main id='main' class='page-element main-container scrollable-container'>
+                <article class='article-element project-container'>
                     <section class='section-project'>
-                        <h2>
-                            Contact
+                        <h2 class='section-project-header-text'>
+                            Project
                         </h2>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -36,15 +43,17 @@
                             It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
                             desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                         </p>
-                        <textarea placeholder="Enter an email"></textarea>
-                        <button><span>Send</span></button>
+                        <img class='responsive' src="https://placeholder.pics/svg/1280x720" viewBox='0 0 100 100';
+                        preserveAspectRatio="none" alt=""></img>
                     </section>
                 </article>
             </main>
+
             <footer class='footer-container'>
                 <div class='horizontal-rule'></div>
                 <p class='footer-text copy-right centered-text'>&#169; Nick D'Orazio 2024</p>
             </footer>
         </div>
     </body>
+    
 </html>

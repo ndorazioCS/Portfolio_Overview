@@ -11,31 +11,6 @@
 @import "./themes/index.css";
 @import "./components/index.css";
 @import "./utilities/index.css";
+@import "./behaviors/index.css";
 
-/******************/
-/* Root Variables */
-/******************/
-
-:root {
-    overscroll-behavior: none;
-}
-
-/*********************/
-/*  Page Styles      */
-/*********************/
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
-.page-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.page-element {
-    flex: 1 0 auto;
-    min-height: 100%;
-}
 

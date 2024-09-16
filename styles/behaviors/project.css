@@ -1,11 +1,11 @@
-/**********************/
-/*  Article Styles    */
-/**********************/
+/******************/
+/* Project Styles */
+/******************/
 
-.article-element {
+.project-container {
     padding: 1rem;
-    min-width: 500px;
-    max-width: 100vw;
+    min-width: 25%;
+    max-width: 100%;
     flex: 1 0 33%;
     display: flex;
     background-color: var(--color-section-background-primary);
@@ -16,3 +16,6 @@
     overflow-y: scroll;
 }
 
+.project-container:hover {
+    background-color: var(--color-section-background-secondary);
+}
